@@ -11,7 +11,7 @@ public class Test {
 		System.setProperty("webdriver.chrome.driver", "C:\\Users\\loges\\eclipse-workspace\\Seleniumn\\driv\\chromedriver.exe");
 		WebDriver driver = new ChromeDriver();
 		driver.get("http://www.green-tech.co.in/");	
-		Thread.sleep(3000);
+		Thread.sleep(3002);
 		WebElement drpProduct = driver.findElement(By.xpath("//li[@class='drop']"));
 		Actions actions = new Actions(driver);
 
